@@ -1,10 +1,19 @@
 import React from "react";
-import Navbar from "./Navbar";
+import MainSearch from "./MainSearch";
+
+import SeedScore from "./SeedScore";
+import Content from "./Content";
+import CommunityButton from "./CommunityButton";
 
 const Main = () => {
   return (
     <>
-      <Navbar />
+      <div className="h-screen w-full">
+        <SeedScore />
+        <CommunityButton />
+        <MainSearch />
+        <Content />
+      </div>
     </>
   );
 };

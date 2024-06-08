@@ -18,23 +18,35 @@ const Navbar = () => {
         </div>
 
         <div className="hidden text-lg md:flex gap-5">
-          <Link className=" rounded-3xl transition duration-200 tracking-wider px-2 p-1 hover:bg-gray-200">
+          <Link
+            to="/learning"
+            className=" rounded-3xl transition duration-200 tracking-wider px-2 p-1 hover:bg-gray-200"
+          >
             Learning
           </Link>
-          <Link className="rounded-3xl transition duration-200 tracking-wider px-2 p-1 active:bg-gray-300 hover:bg-gray-200">
-            Community
-          </Link>
-
-          <Link className="rounded-3xl transition duration-200 tracking-wider px-2 p-1 hover:bg-gray-200">
+          <Link
+            to="/products"
+            className="rounded-3xl transition duration-200 tracking-wider px-2 p-1 active:bg-gray-300 hover:bg-gray-200"
+          >
             Products
           </Link>
-          <Link className=" rounded-3xl transition duration-200 tracking-wider px-2 p-1 hover:bg-gray-200">
+
+          <Link
+            to="/market"
+            className="rounded-3xl transition duration-200 tracking-wider px-2 p-1 hover:bg-gray-200"
+          >
+            Market
+          </Link>
+          <Link
+            to="/news"
+            className=" rounded-3xl transition duration-200 tracking-wider px-2 p-1 hover:bg-gray-200"
+          >
             News
           </Link>
         </div>
 
         <div className="flex gap-4 text-xl lg:text-2xl mr-10">
-          <Link className=" p-1 rounded-full hover:bg-gray-200">
+          <Link to="/login" className=" p-1 rounded-full hover:bg-gray-200">
             <VscAccount />
           </Link>
           <Link className=" p-1 rounded hover:bg-gray-200">

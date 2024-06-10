@@ -12,7 +12,6 @@ import Product from "./components/Product Page/Product";
 function App() {
   return (
     <>
-      <Navbar />
       <Routes>
         <Route path="/" element={<Main />}></Route>
         <Route path="/learning" element={<Learning />}></Route>

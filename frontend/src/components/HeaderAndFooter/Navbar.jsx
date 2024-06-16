@@ -6,7 +6,7 @@ import { FaSeedling } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <div className=" h-16 bg-gray-50 lg:h-20 w-full border-b ">
+    <div className=" h-16 bg-gray-50 lg:h-[70px] w-full border-b ">
       <div className=" h-full flex items-center justify-between">
         <div className="flex ml-10">
           <Link
